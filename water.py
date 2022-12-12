@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 #搜尋目標位址
-url = "https://water.taiwanstat.com/"
+url = "https://www.google.com/m?client=ms-android-sonymobile&channel=bm"
 #向位址提出請求
 web = requests.get("https://water.taiwanstat.com/")
 
