@@ -10,7 +10,7 @@ if web.status_code == 200:
     print("取得網頁內容成功") 
        
     soup = BeautifulSoup(web.text, "lxml")
-    print("issue1 gogogo")
+    
     tag = soup.find_all("h3")
     
     for row in tag:
