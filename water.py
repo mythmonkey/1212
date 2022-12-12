@@ -14,9 +14,8 @@ if web.status_code == 200:
     tag = soup.find_all("h3")
     
     for row in tag:
-        print(row.get_text("", strip=True))
+        print(row.get_text("\n", strip=True))
         
-        print(soup.title)
     
             
 else:
