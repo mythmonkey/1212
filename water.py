@@ -15,7 +15,7 @@ if web.status_code == 200:
     
     for row in tag:
         print(row.get_text("\n", strip=True))
-        
+        print("issue1")
     
             
 else:
